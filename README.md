@@ -20,7 +20,7 @@ API_SECRET=your_binance_testnet_api_secret
 
 ## 🧪 Пример запуска
 ```bash
-poetry run python main.py \
+poetry run python src/main.py \
 --symbol BTCUSDT \
 --quantity 0.0001 \
 --profit 0.25 \
