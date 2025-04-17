@@ -3,9 +3,9 @@ import asyncio
 import logging
 from decimal import Decimal
 
-from apps.adapters import BinanceWSClient, BinanceAPIClient
-from apps.services.custom_logger import CustomLogger
-from apps.services.trade_handler import TradeManager
+from src.apps.adapters import BinanceWSClient, BinanceAPIClient
+from src.apps.services.custom_logger import CustomLogger
+from src.apps.services.trade_handler import TradeManager
 
 
 def parse_args():
