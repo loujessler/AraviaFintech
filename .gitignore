@@ -1,0 +1,11 @@
+.env
+.DS_Store
+.envrc
+.idea
+.vscode/
+config/settings/local
+__pycache__
+docker-compose.yaml
+.coverage
+*.sqlite3
+.pylintrc
