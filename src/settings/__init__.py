@@ -1,1 +1,1 @@
-from src.settings.common import *
+from .common import *
