@@ -27,7 +27,7 @@ async def main():
     ws_client_logger = CustomLogger(name="BinanceWSClient", log_file="ws_logger.log")
 
     api_client = BinanceAPIClient(api_client_logger)
-    ws_client = BinanceWSClient(symbol="BTCUSDT", logger=ws_client_logger)
+    ws_client = BinanceWSClient(symbol=args.symbol, logger=ws_client_logger)
 
     trade_manager = TradeManager(
         api_client=api_client,
